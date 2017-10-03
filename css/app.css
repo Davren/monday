@@ -1,0 +1,120 @@
+.title-bar, .top-bar, .top-bar ul, .footer-bar {
+	color: #c0c0c0;
+	background: #203040;
+	border-top-color: #a0c0e0;
+}
+
+.top-bar a:link, .top-bar a:visited, .top-bar .dropdown.menu > li.is-dropdown-submenu-parent > a::after,
+	.footer-bar a:link, .footer-bar a:visited {
+	border-top-color: #a0c0e0;
+	color: #a0c0e0;
+}
+
+.top-bar a:hover, .top-bar .is-active > a:link, .top-bar .is-active > a:visited, .footer-bar a:hover {
+	color: #ffffff;
+}
+
+
+.hero-section {
+  background: url("/images/construction_site.jpg") 50% no-repeat;
+  background-size: cover;
+  height: 20vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.hero-section .hero-section-text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+
+
+
+.marketing-site-features {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.marketing-site-features .fa {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: #1779ba;
+}
+
+.marketing-site-features .marketing-site-features-title {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+/*@media screen and (min-width: 40em) {
+  .marketing-site-features {
+    text-align: left;
+  }
+}*/
+
+.marketing-site-features-headline {
+  text-align: center;
+  font-size: 24px;
+}
+
+.marketing-site-features-subheadline {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+
+
+
+.card-flex-article {
+	margin: 2rem;
+	width: 200px;
+  /*display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: transparent;*/
+}
+
+.card-flex-article .card-image {
+  position: relative;
+}
+
+.card-flex-article .card-tag {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 3%;
+}
+
+.card-flex-article .card-section .article-title {
+  /*font-family: 'Merriweather', serif;*/
+  font-weight: bold;
+  font-size: 1.75rem;
+  margin-bottom: 0;
+}
+
+.card-flex-article .card-section .article-details {
+  font-size: 0.75rem;
+  opacity: 0.5;
+  /*padding-bottom: 0.75rem;*/
+}
+
+
+
+
+.footer-bar {
+	text-align: center;
+	padding: 0.5em;
+}
